@@ -14,7 +14,7 @@ import { AlertController } from 'ionic-angular';
 export class RestProvider {
   // private apiUrl = 'https://restcountries.eu/rest/v2/all';
 
-  private apiUrl = 'https://www.doviz.com/api/v1/golds/gram-altin/daily';
+  private apiUrl = 'https://www.doviz.com/api/v1/currencies/all/latest';
 
   constructor(public http: HttpClient, public alertCtrl: AlertController) {
     console.log('Constructor Rest');

@@ -11,9 +11,10 @@
     <ion-item *ngFor="let c of countries">
       <ion-avatar item-left>
         <!-- <img src="{{c.flag}}"> -->
+        <h2>{{c.code}}</h2>
       </ion-avatar>
-      <h2>{{c.name}}</h2>
-      <p>Capital: {{c.selling}}, Region: {{c.update_date}}</p>
+      <h2>Doviz: {{c.name}}</h2>
+      <p>Alis: {{c.selling}}, Satis: {{c.update_date}}</p>
     </ion-item>
   </ion-list>
 </ion-content>
