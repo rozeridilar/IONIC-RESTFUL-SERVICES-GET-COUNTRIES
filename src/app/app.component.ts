@@ -1,3 +1,5 @@
+import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
+import { AppModule } from '../app/app.module';
 import { Component } from '@angular/core';
 import { Platform } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
