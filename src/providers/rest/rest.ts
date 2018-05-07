@@ -15,6 +15,7 @@ export class RestProvider {
   // private apiUrl = 'https://restcountries.eu/rest/v2/all';
 
   private apiUrl = 'https://www.doviz.com/api/v1/currencies/all/latest';
+  private goldUrl = 'https://www.doviz.com/api/v1/golds/all/latest';
 
   constructor(public http: HttpClient, public alertCtrl: AlertController) {
     console.log('Constructor Rest');
